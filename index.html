@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Container para os controles de busca -->
+    <div>
+        <!-- Campo de texto para o usuário digitar o nome do filme -->
+        <input type="text" name="filmes" id="campoFilmes">
+        <!-- Botão para iniciar a busca -->
+        <button id="buscarFilmes">Buscar Filme</button>
+    </div>
+
+    <!-- Container onde os resultados dos filmes serão exibidos -->
+    <div id="inforFilmes">
+        <!-- Mensagem inicial exibida antes da primeira busca -->
+        <p class="mensagem-inicial">Pesquise o nome do filme em inglês</p>
+    </div>
+    
+    <!-- Importa o arquivo JavaScript principal. 'type="module"' é necessário porque usamos 'import' no script. -->
+    <script src="./src/js/scrpit.js" type="module"></script>
+</body>
+</html>
